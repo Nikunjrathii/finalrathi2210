@@ -1,0 +1,52 @@
+{
+    "name": "xyzapp-root",
+    "version": "1.0.0",
+    "description": "Root package.json for managing the full-stack XYZ web app",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+      "build": "cd client && npm run build",
+      "install:all": "cd server && npm install && cd ../client && npm install",
+      "install:server": "cd server && npm install",
+      "install:client": "cd client && npm install"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+      "@react-google-maps/api": "^2.18.1",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "axios": "^1.4.0",
+      "bootstrap": "^5.3.0",
+      "concurrently": "^8.2.2",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "helmet": "^7.0.0",
+      "mongoose": "^7.3.3",
+      "nodemailer": "^6.9.3",
+      "nodemon": "^2.0.22",
+      "react": "^18.2.0",
+      "react-bootstrap": "^2.8.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.10.1",
+      "react-router-dom": "^6.13.0",
+      "react-scripts": "5.0.1",
+      "sass": "^1.69.0",
+      "web-vitals": "^2.1.4"
+    },
+    "engines": {
+        "node": "18.16.0",
+        "npm": "9.5.1"
+      },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Nikunjrathii/RathiFinalConsultancy"
+    },
+    "workspaces": [
+      "server",
+      "client"
+    ]
+  }
+  
