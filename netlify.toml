@@ -1,0 +1,10 @@
+# Netlify.toml for a project with separate client and server directories
+[build]
+  base = ""  # Specify the base directory for the entire project (leave it empty for the repository root)
+  publish = "client/build"  # Specify the directory where the client build files are located
+  functions = "server"  # Specify the directory where your serverless functions are located
+
+[build.environment]
+ DATABASE=mongodb+srv://nikunj9830:Nikunjrathi1!@rathidata.daut3ho.mongodb.net/
+
+
