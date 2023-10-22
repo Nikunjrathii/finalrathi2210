@@ -1,7 +1,8 @@
 [build]
-  base = "./"         
-  publish = "client/"  
-  functions = "server/" 
+  base = ""               
+  publish = "client/build" 
+  functions = "server"   
+
 
 
 [build.environment]
