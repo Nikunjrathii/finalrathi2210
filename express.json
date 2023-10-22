@@ -1,0 +1,5 @@
+{
+    "entry": "server/index.js",
+    "output": "public"
+  }
+  
