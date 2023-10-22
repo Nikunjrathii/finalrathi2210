@@ -1,0 +1,2 @@
+[build]
+  base = "./server"         # Set the base directory to the server subdirectory

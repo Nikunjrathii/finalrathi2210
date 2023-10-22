@@ -1,12 +1,2 @@
 [build]
-  base = ""               
-  publish = "client/build" 
-  functions = "server"   
-
-
-
-[build.environment]
- DATABASE=mongodb+srv://nikunj9830:Nikunjrathi1!@rathidata.daut3ho.mongodb.net/
-
-
-
+base = "./"

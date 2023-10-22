@@ -1,0 +1,3 @@
+[build]
+  base = "./client"          # Set the base directory to the client subdirectory
+  publish = "build"         # Set the publish directory for the client app
