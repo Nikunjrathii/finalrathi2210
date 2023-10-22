@@ -1,2 +1,4 @@
 [build]
-base = "./"
+  base = ""                # Set the base directory to the root
+  publish = "client/build" # Set the publish directory for the client app
+  functions = "server"    # Set the functions directory for the server app
